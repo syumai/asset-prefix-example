@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
-}
+  assetPrefix: "https://example.nextjs.org", // dummy URL
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
